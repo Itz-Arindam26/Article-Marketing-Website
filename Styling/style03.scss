@@ -1,0 +1,90 @@
+@import "_mixins";
+header {
+  position: sticky;
+  background-color: white;
+  top: 0;
+  nav {
+    margin: $marauto;
+    width: 95vw;
+    @include flexpro2;
+    justify-content: space-between;
+    div {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+      img {
+        width: 4rem;
+        border-radius: 0.9em;
+    }
+    div {
+        font-family: $font2;
+        font-size: 2rem;
+    }
+}
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        font-family: $font2;
+        font-size: 1.3rem;
+        justify-content: space-evenly;
+        gap: 1.8em;
+        li {
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
+}
+main {
+    padding-top: 2rem;
+    width: 70vw;
+    margin: $marauto;
+    .cont{
+        padding: 1rem;
+        background-color: $litgrey;
+        border-radius: 1.2rem;
+        text-align: center;
+        p{
+            font-family: $font1;
+            font-weight: $fow400;
+            font-size: 1.5rem;
+            img{
+                width: 5rem * 2;
+                border-radius: 0.9em;
+            }
+            svg{
+                width: 4.5rem;
+            }
+        }
+        h2{
+            font-family: $font2;
+            font-weight: 700;
+            font-size: 2.5rem;
+        }
+    }
+}
+footer {
+  width: 95vw;
+  margin: $marauto;
+  margin-top: 3rem;
+  @include flexpro1;
+  gap: 1.5rem;
+  img {
+    width: 4rem;
+    border-radius: 0.9em;
+  }
+  span {
+    font-family: $font2;
+    font-size: 1.2rem;
+    color: rgb(169, 171, 175);
+    span {
+      font-family: $font2;
+      font-weight: 700;
+      color: black;
+      font-size: 1.2rem;
+    }
+  }
+}

@@ -1,0 +1,114 @@
+@import "_mixins";
+header {
+  position: sticky;
+  background-color: white;
+  top: 0;
+  nav {
+    margin: $marauto;
+    width: 95vw;
+    @include flexpro2;
+    justify-content: space-between;
+    div {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+      img {
+        width: 4rem;
+        border-radius: 0.9em;
+      }
+      div {
+        font-family: $font2;
+        font-size: 2rem;
+      }
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      font-family: $font2;
+      font-size: 1.3rem;
+      justify-content: space-evenly;
+      gap: 1.8em;
+      li {
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+}
+main {
+  width: 95vw;
+  margin: $marauto;
+  @include flexpro2;
+  justify-content: space-evenly;
+  .txt {
+    font-family: $font1;
+    width: 50%;
+    font-size: 1.3rem;
+    p {
+      &:first-child {
+        font-family: "Anton", $font1;
+        font-size: 2.5rem;
+      }
+    }
+  }
+  .forum {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    font-family: $font1;
+    font-size: 1.2rem;
+    background-color: $litgrey;
+    padding: 1rem;
+    border-radius: 1rem;
+    p {
+      label {
+        font-size: 1rem;
+      }
+      input {
+        font-size: 1.1rem;
+        border-radius: 0.2em;
+        font-family: $font1;
+        border: 0.02rem solid black;
+        padding: 0.4rem;
+      }
+      button {
+        background-color: rgb(158, 49, 192);
+        color: white;
+        font-size: 0.9rem;
+        border: 0.01rem black;
+        padding: 0.49rem;
+        border-radius: 0.3rem;
+      }
+      &:last-child{
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+footer {
+  width: 95vw;
+  margin: $marauto;
+  margin-top: 3rem;
+  @include flexpro1;
+  gap: 1.5rem;
+  img {
+    width: 4rem;
+    border-radius: 0.9em;
+  }
+  span {
+    font-family: $font2;
+    font-size: 1.2rem;
+    color: rgb(169, 171, 175);
+    span {
+      font-family: $font2;
+      font-weight: 700;
+      color: black;
+      font-size: 1.2rem;
+    }
+  }
+}

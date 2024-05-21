@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Anta&family=Baloo+Bhaina+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Cagliostro&family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Anta&family=Anton&family=Baloo+Bhaina+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Bebas+Neue&family=Cagliostro&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Homemade+Apple&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Ms+Madi&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&family=Truculenta:opsz,wght@12..72,100..900&family=Whisper&display=swap");
+header {
+  position: sticky;
+  background-color: white;
+  top: 0;
+}
+header nav {
+  margin: auto;
+  width: 95vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav div {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+header nav div img {
+  width: 4rem;
+  border-radius: 0.9em;
+}
+header nav div div {
+  font-family: "Anta", "Poppins", "Baloo Bhaina 2", "Baloo Da 2", sans-serif;
+  font-size: 2rem;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-family: "Anta", "Poppins", "Baloo Bhaina 2", "Baloo Da 2", sans-serif;
+  font-size: 1.3rem;
+  justify-content: space-evenly;
+  gap: 1.8em;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  width: 95vw;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+main .oxt h1 {
+  font-family: "Poppins", "Baloo Bhaina 2", "Baloo Da 2", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+main .oxt h1 span {
+  color: rgb(36, 96, 187);
+}
+main .oxt .txt {
+  width: 70%;
+  font-family: "Poppins", "Baloo Bhaina 2", "Baloo Da 2", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+main .oxt h2 {
+  font-family: "Poppins", "Baloo Bhaina 2", "Baloo Da 2", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+main .oxt h2 span {
+  color: rgb(36, 96, 187);
+}
+main img {
+  width: 155%;
+}
+
+footer {
+  width: 95vw;
+  margin: auto;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 1.5rem;
+}
+footer img {
+  width: 4rem;
+  border-radius: 0.9em;
+}
+footer span {
+  font-family: "Anta", "Poppins", "Baloo Bhaina 2", "Baloo Da 2", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(169, 171, 175);
+}
+footer span span {
+  font-family: "Anta", "Poppins", "Baloo Bhaina 2", "Baloo Da 2", sans-serif;
+  font-weight: 700;
+  color: black;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=style02.css.map */

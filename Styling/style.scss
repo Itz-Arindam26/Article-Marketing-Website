@@ -1,0 +1,126 @@
+@import "_mixins";
+header {
+  position: sticky;
+  background-color: white;
+  top: 0;
+  nav {
+    margin: $marauto;
+    width: 95vw;
+    @include flexpro2;
+    justify-content: space-between;
+    div {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+      img {
+        width: 4rem;
+        border-radius: 0.9em;
+      }
+      div {
+        font-family: $font2;
+        font-size: 2rem;
+      }
+    }
+    ul {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      font-family: $font2;
+      font-size: 1.3rem;
+      justify-content: space-evenly;
+      gap: 1.8em;
+      li {
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+}
+main {
+  width: 95vw;
+  margin: $marauto;
+  .tox {
+    @include flexpro2;
+    gap: 1.5rem;
+    .txt {
+      .wlcme {
+        font-family: $font1;
+        font-size: 2rem;
+        padding-bottom: 0.5em;
+        span {
+          color: rgb(21, 113, 171);
+          font-weight: 800;
+          font-size: 2rem;
+        }
+      }
+      .get {
+        width: 50vw;
+        font-weight: $fow400;
+        font-size: 1.2rem;
+        font-family: $font1;
+      }
+    }
+    .photo {
+      img {
+        width: 42vw;
+        border-radius: 1rem;
+      }
+    }
+  }
+  .test {
+    h2 {
+      font-size: 3rem;
+      font-weight: $fow400;
+      font-family: $font1;
+    }
+    .boxes {
+      @include flexpro2;
+      justify-content: space-evenly;
+      .box1 {
+        width: 46vw;
+        height: 57vh;
+        background-color: $litgrey;
+        margin: $marauto;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        gap: 2.5rem;
+        box-sizing: content-box;
+        div {
+          font-size: 1rem;
+          font-weight: 300;
+          font-family: $font1;
+          width: 35vw;
+          svg{
+              width: 1rem;
+              color: #7133f2;
+            }
+        }
+    }
+}
+}
+}
+footer{
+    width: 95vw;
+    margin: $marauto;
+    margin-top: 3rem;
+    @include flexpro1;
+    gap: 1.5rem;
+    img {
+        width: 4rem;
+        border-radius: 0.9em;
+    }
+    span{
+        font-family: $font2;
+        font-size: 1.2rem;
+        color: $grey;
+        span{
+            font-family: $font2;
+            font-weight: 700;
+            color: black;
+            font-size: 1.2rem;
+        }
+    }
+}

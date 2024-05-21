@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Anta&family=Baloo+Bhaina+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Cagliostro&family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&family=Anta&family=Anton&family=Baloo+Bhaina+2:wght@400..800&family=Baloo+Da+2:wght@400..800&family=Bebas+Neue&family=Cagliostro&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Homemade+Apple&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Ms+Madi&family=Ojuju:wght@200..800&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&family=Truculenta:opsz,wght@12..72,100..900&family=Whisper&display=swap");
+@mixin flexpro1{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+@mixin flexpro2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+// fonts
+$font1: "Poppins", "Baloo Bhaina 2", "Baloo Da 2", sans-serif;
+$font2: "Anta","Poppins", "Baloo Bhaina 2", "Baloo Da 2", sans-serif;
+
+// color used
+$grey: rgb(169, 171, 175);
+$litgrey: rgb(243 244 246);
+
+// font weight
+$fow400: 400;
+
+// margin
+$marauto: auto;
